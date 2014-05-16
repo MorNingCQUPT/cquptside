@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>图片墙</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="../Public/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Public/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="../Public/css/doc-style.css" />
+    <link rel="stylesheet" href="../Public/css/css.css" />
+    <script type="text/javascript" src="../Public/js/jquery.js"></script>
+    <script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
+</head>
+<body class="fontSet">
+<!--公用头部-->
+<div id="header" class="navbar">
+    <div class="navbar-inner doc-nav">
+        <!--导航条-->
+        <ul class="nav">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">文章区</a></li>
+            <li><a href="#">扶她板载</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">登陆<b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li id="signIn"><a type="button" data-toggle="modal" data-target="#myLoginBox">登陆</a></li>
+                    <li id="regist"><a type="button" data-toggle="modal" data-target="#registBox">注册</a></li>
+                    <li class="divider"></li>
+                    <li id="close"><a href="#">关闭</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--导航条结束-->
+        <!--搜索条-->
+        <form class="form-search doc-form pull-right">
+            <div class="input-append">
+                <input type="text" class="span2 search-query">
+                <button type="submit" class="btn">Search</button>
+            </div>
+        </form>
+        <!--搜索条结束-->
+    </div>
+</div>
+<!--登陆窗口-->
+<div id="myLoginBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">登陆</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="inputUsername">用户名</label>
+                <div class="controls">
+                    <input type="text" id="inputUsername" placeholder="Username">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputPassword">密码</label>
+                <div class="controls">
+                    <input type="password" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <label class="checkbox">
+                        <input type="checkbox"> 保持登陆状态
+                    </label>
+                    <button type="submit" class="btn">登陆</button>
+                </div>
+            </div>
+        </form>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    </div>
+</div>
+<!--登陆窗口结束-->
+<!--注册窗口-->
+<div id="registBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myRegistLabel">登陆</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="input-r-user">用户名</label>
+                <div class="controls">
+                    <input type="text" id="input-r-user" placeholder="Username">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input-r-password">密码</label>
+                <div class="controls">
+                    <input type="password" id="input-r-password" placeholder="Password">
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn">注册</button>
+                </div>
+            </div>
+        </form>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    </div>
+</div>
+<!--注册窗口结束-->
+<!--公用头部结束-->
+<!--container-->
+<div class="container">
+    <!--图片瀑布墙
+        要注意的是item0~7由于初始化都不能删除
+        ，但可以更改内部的内容或者隐藏其内容
+    -->
+    <div id="device" class="gridalicious">
+        <div class="galcolumn" id="item0KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <img src="../Public/images/Desert.jpg" style="width: 100%;height: auto"/>
+                <div>范德萨桂丰大厦归属地</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item1KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>范德萨范德萨</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item2KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>花费多少讽德诵功分公司等</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item3KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>和广泛地和广泛地和规范等</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item4KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>个电风扇个讽德诵功发送给发送到</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item5KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>桂丰大厦个讽德诵功当然的归属感风格虽然</div>
+            </div>
+        </div>
+        <div class="galcolumn" id="item6KIqp5" style="width: 14.153316562955117%; padding-left: 10px; padding-bottom: 10px; float: left; box-sizing: border-box;">
+            <div class="item" style="margin-bottom: 10px; zoom: 1; opacity: 1;">
+                <div>发生过费大幅度和规范等</div>
+            </div>
+        </div>
+        <div id="clearKIqp5" style="clear: both; height: 0px; width: 0px; display: block;"></div>
+    </div>
+    <!--瀑布流结束-->
+    <script src="../Public/js/jquery.grid-a-licious.min.js"></script>
+    <script type="text/javascript">
+        //这里新建了一个方法来向流中插入我们所需的图片文字等内容，也可以在后台完成。。。
+        makeboxes = function() {
+            var boxes = new Array;
+            var randTxt = [
+                "<img src='../Public/images/Chrysanthemum.jpg' style='width: 100%;height: auto' />"
+                +"<div>Chrysanthemum</div>",
+                "<img src='../Public/images/Hydrangeas.jpg' style='width: 100%;height: auto' />"
+                +"<div>Hydrangeas</div>",
+                "<img src='../Public/images/Desert.jpg' style='width: 100%;height: auto' />"
+                +"<div>Desert</div>"
+            ];
+            var amount = 10 + Math.floor(Math.random()*10); if (amount == 0) amount = 1;
+            for(i=0;i<amount;i++){
+                num = Math.floor(Math.random()*randTxt.length)
+                div = $('<div></div>').addClass('item');
+
+                p = randTxt[num];
+
+                div.append(p);
+                boxes.push(div);
+            }
+            return boxes;
+        }
+        //当文档加载完成时，对对象添加滚动操作，向下滚动即添加内容
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if(($(window).scrollTop() + $(window).height()) == $(document).height())
+                {
+                    $("#device").gridalicious('append', makeboxes());
+                }
+            });
+            //由于这个插件是响应式的，所以不需要以下按钮了，我屏蔽了
+            /*
+            $("#auto").click(function () {
+                $('.button').removeClass('active');
+                $(this).addClass('active');
+                $("#device").animate({
+                    width: '100%'
+                }, function () {
+                    $("#device").gridalicious('resize');
+                });
+            });
+
+            $("#ipadLandscape").click(function () {
+                $('.button').removeClass('active');
+                $(this).addClass('active');
+                $("#device").animate({
+                    width: 1024
+                }, function () {
+                    $("#device").gridalicious('resize');
+                });
+            })
+            $("#ipadPortrait").click(function () {
+                $('.button').removeClass('active');
+                $(this).addClass('active');
+                $("#device").animate({
+                    width: 768
+                }, function () {
+                    $("#device").gridalicious('resize');
+                });
+            })
+            $("#iphoneLandscape").click(function () {
+                $('.button').removeClass('active');
+                $(this).addClass('active');
+                $("#device").animate({
+                    width: 480
+                }, function () {
+                    $("#device").gridalicious('resize');
+                });
+            })
+            $("#iphonePortrait").click(function () {
+                $('.button').removeClass('active');
+                $(this).addClass('active');
+                $("#device").animate({
+                    width: 320
+                }, function () {
+                    $("#device").gridalicious('resize');
+                });
+            });*/
+            //这里是瀑布流的设置区域
+            $("#device").gridalicious({
+                gutter: 10,
+                width: 200,
+                animate: true,
+                animationOptions: {
+                    speed: 150,
+                    duration: 400,
+                    complete: onComplete
+                }
+            });
+
+            //暂时用不到
+            function onComplete(data) {
+            }
+
+        });
+    </script>
+</div>
+<!--公用网页脚部-->
+<div id="footer">
+    <div class="container">
+        <div class="doc-foot-left pull-left">
+            <p>
+                <a href="#">关于我们</a> |
+                <a href="#">管理入口</a> |
+                <a href="#">网站声明</a> |
+                <a href="#">网站地图</a>
+            </p>
+        </div>
+        <div class="doc-foot-right pull-right">
+            <span>Copyright©2010-2013 All Rights Reserved. </span>
+            <a href="#">myIndex.com</a>
+        </div>
+    </div>
+</div>
+<!--公用脚部结束-->
+<script type="text/javascript" src="../Public/js/doc.js"></script>
+</body>
+</html>
