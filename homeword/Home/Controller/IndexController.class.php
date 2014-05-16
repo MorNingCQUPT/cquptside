@@ -8,10 +8,10 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class ArticalController extends Controller{
+class IndexController extends Controller{
     public function index(){
         $date = M("artical");
-        $list = $date->limit(14)->select();
+        $list = $date->limit(8)->select();
         $this->assign("list",$list);
         $this->display();
     }
