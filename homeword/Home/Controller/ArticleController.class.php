@@ -16,7 +16,6 @@ class ArticleController extends Controller{
         $id = I('get.id',8);
         $map['id'] = $id;
         $list = $date->where($map)->find();
-        dump($list['content']);
         $this->assign('title',$list["title"]);
         $this->assign('author',$list["author"]);
         $this->assign('date',$list["date"]);
