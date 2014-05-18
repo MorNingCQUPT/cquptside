@@ -1,0 +1,102 @@
+<include file="Public:header_sec"/>
+<!--container-->
+<div class="container">
+    <span class="doc-listBar">您的位置：<a href="#">首页</a>&gt;<a href="#">哪一块</a>&gt;<a href="#">文章1</a> </span>
+</div>
+<div class="container doc-container">
+    <div class="row">
+        <div class="span8">
+            <div class="doc-article">
+                <!--文章标题-->
+                <h4 class="doc-article-title">{$title}</h4>
+                <!--标题结束-->
+                <div>
+                    <!--文章信息 包括作者名，时间，标签-->
+                    <div class="doc-article-info">
+                        <span class="doc-article-author">作者：{$author}</span>
+                        <span class="doc-article-time">时间：{$date}</span>
+                        <span>标签： jQuery  CSS</span>
+                    </div>
+                    <!--文章信息结束-->
+                    <!--文章内容-->
+                    <div class="doc-article-content">
+                        <!--直接全部插在这里面-->
+                        {$content}
+                    </div>
+                    <!--内容结束-->
+                </div>
+            </div>
+        </div>
+        <div class="span3">
+            <!--标签文章-->
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            Javascript<b class="icon-chevron-down pull-right doc-btn-active"></b>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <volist name="list" id="vo">
+                            <div><a href="#">{$vo.title}</a></div>
+                        </volist>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            PHP<b class="icon-chevron-up pull-right doc-btn-active"></b>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <a href="#">thinkPHP</a>
+                        </div>
+                        <div class="accordion-inner">
+                            <a href="#">smarty</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--标签文章结束-->
+            <!--友情链接-->
+            <div class="accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a href="#" class="accordion-toggle">友情链接</a>
+                    </div>
+                    <div class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <a href="#">百度</a>
+                        </div>
+                        <div class="accordion-inner">
+                            <a href="#">谷歌</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--友情链接结束-->
+        </div>
+    </div>
+</div>
+<!--公用网页脚部-->
+<div id="footer">
+    <div class="container">
+        <div class="doc-foot-left pull-left">
+            <p>
+                <a href="#">关于我们</a> |
+                <a href="#">管理入口</a> |
+                <a href="#">网站声明</a> |
+                <a href="#">网站地图</a>
+            </p>
+        </div>
+        <div class="doc-foot-right pull-right">
+            <span>Copyright©2010-2013 All Rights Reserved. </span>
+            <a href="#">myIndex.com</a>
+        </div>
+    </div>
+</div>
+<!--公用脚部结束-->
+<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
+</body>
+</html>
