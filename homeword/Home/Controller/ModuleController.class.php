@@ -15,7 +15,6 @@ class ModuleController extends Controller{
             "xyfc"=>"学院新闻",
             "xshd"=>"学生活动"
         );
-        echo $module[I("get.m")];
         $map["module"] = $module[I("get.m")];
         $list = $date->limit(8)->where($map)->select();
         $this->assign('module',$list[0]['module']);
