@@ -1,0 +1,82 @@
+<include file="Public:header_sec"/>
+<!--container-->
+<div class="container">
+    <span class="doc-listBar">您的位置：<a href="/index.php">首页</a>&gt;<a href="#">{$module}</a> </span>
+</div>
+<div class="container doc-container">
+    <div class="row">
+        <div class="doc-detail-list">
+            <div class="span6">
+                <div class="accordion-group">
+                    <div class="accordion-heading doc-list-head">文章列表</div>
+                    <ul class="doc-list-ul">
+                        <!--detailList的循环体，只取相关表文章
+                            当然了，做搜索页另当别论，a标签插文
+                            章页面，span里可以插时间，这个页面
+                            最好只取30个值，多的用分页分开
+                        -->
+                        <volist name="list" id="vo">
+
+                            <li class="accordion-inner">
+                                <b class="icon-file"></b>
+                                <a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a>
+                                <span class="pull-right">{$vo.date}</span>
+                            </li>
+                        </volist>
+
+                        <!--循环结束-->
+                    </ul>
+                    <!--分页按钮 当为第一页时请隐藏上一页按钮，为最后一页时请隐藏下一页按钮-->
+                    <div class="doc-control-btn">
+                        <a id="doc-c-prev" href="#">上一页</a> |
+                        <a id="doc-c-next" href="#">下一页</a> |
+                        <input id="jumpPage" type="text" /> <a href="#">跳转</a>
+                    </div>
+                    <!--分页结束-->
+                </div>
+            </div>
+            <div class="span2">
+                <div class="accordion doc-accordion" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                Javascript<b class="icon-chevron-down pull-right doc-btn-active"></b>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <a href="#">jQuery</a>
+                            </div>
+                            <div class="accordion-inner">
+                                <a href="#">YUI</a>
+                            </div>
+                            <div class="accordion-inner">
+                                <a href="#">AJAX</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                PHP<b class="icon-chevron-up pull-right doc-btn-active"></b>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <a href="#">thinkPHP</a>
+                            </div>
+                            <div class="accordion-inner">
+                                <a href="#">smarty</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<include file="Public:footer"/>
+<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
+</body>
+</html>
