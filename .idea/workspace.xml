@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77f4e2c-6a73-4c2d-a7aa-fea5e50b6a87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homeword/Home/Controller/Artical.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homeword/Home/View/Artical/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/bootstrap/article.html" afterPath="$PROJECT_DIR$/homeword/bootstrap/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/Home/View/Public/header_sec.html" afterPath="$PROJECT_DIR$/homeword/Home/View/Public/header_sec.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/Runtime/Logs/14_05_18.log" afterPath="$PROJECT_DIR$/homeword/Runtime/Logs/14_05_18.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/Runtime/Cache/Home/89290d6756ffebd46799bb3c6ad8be5e.php" afterPath="$PROJECT_DIR$/homeword/Runtime/Cache/Home/89290d6756ffebd46799bb3c6ad8be5e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/Home/Controller/ArticleController.class.php" afterPath="$PROJECT_DIR$/homeword/Home/Controller/ArticleController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeword/Home/View/Article/index.html" afterPath="$PROJECT_DIR$/homeword/Home/View/Article/index.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,25 +31,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeword/Home/View/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="33" selection-start="2397" selection-end="2524" vertical-scroll-proportion="-13.75" vertical-offset="450" max-vertical-offset="2460">
+            <state line="52" column="33" selection-start="2397" selection-end="2524" vertical-scroll-proportion="-3.425" vertical-offset="506" max-vertical-offset="2460">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ArticleController.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeword/Home/Controller/ArticleController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="257" selection-end="257" vertical-scroll-proportion="0.2647059" vertical-offset="0" max-vertical-offset="510">
+            <state line="23" column="48" selection-start="629" selection-end="629" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homeword/Home/View/Article/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="65" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-10.0" vertical-offset="360" max-vertical-offset="1605">
+            <state line="23" column="34" selection-start="987" selection-end="987" vertical-scroll-proportion="0.26431718" vertical-offset="225" max-vertical-offset="1605">
               <folding />
             </state>
           </provider>
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/homeword/Home/Controller/ArticalController.class.php" />
         <option value="$PROJECT_DIR$/homeword/Home/View/Index/index.html" />
         <option value="$PROJECT_DIR$/homeword/Home/View/Artical/index.html" />
-        <option value="$PROJECT_DIR$/homeword/Home/View/Article/index.html" />
         <option value="$PROJECT_DIR$/homeword/Home/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/homeword/Home/View/Article/index.html" />
       </list>
     </option>
   </component>
@@ -590,21 +589,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homeword/Home/View/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="33" selection-start="2397" selection-end="2524" vertical-scroll-proportion="-13.75" vertical-offset="450" max-vertical-offset="2460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeword/Home/View/Article/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="65" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-10.0" vertical-offset="360" max-vertical-offset="1605">
+        <state line="52" column="33" selection-start="2397" selection-end="2524" vertical-scroll-proportion="-3.425" vertical-offset="506" max-vertical-offset="2460">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homeword/Home/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="257" selection-end="257" vertical-scroll-proportion="0.2647059" vertical-offset="0" max-vertical-offset="510">
+        <state line="23" column="48" selection-start="629" selection-end="629" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeword/Home/View/Article/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="987" selection-end="987" vertical-scroll-proportion="0.26431718" vertical-offset="225" max-vertical-offset="1605">
           <folding />
         </state>
       </provider>

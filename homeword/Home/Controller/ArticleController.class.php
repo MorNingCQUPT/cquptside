@@ -21,9 +21,11 @@ class ArticleController extends Controller{
         $this->assign('author',$list["author"]);
         $this->assign('date',$list["date"]);
         $this->assign('content',$list["content"]);
+        $this->assign('module',$list["module"]);
 
-
+        #侧栏文章展示
         $list_art = $date->limit(8)->select();
+        $this->assign("list",$list_art);
 
         $this->display();
     }

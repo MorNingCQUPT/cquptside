@@ -1,4 +1,4 @@
 #ignore /homework/Runtime  cache files
-/homework/Runtime
-./homework/Runtime
+homework/Runtime/
+.idea/
 
