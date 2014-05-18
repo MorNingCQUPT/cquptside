@@ -11,8 +11,13 @@ use Think\Controller;
 class ModuleController extends Controller{
     public function index(){
         $date = M("artical");
-
-        $list = $date->limit(8)->select();
+        $module = array(
+            "xyfc"=>"学院新闻",
+            "xshd"=>"学生活动"
+        );
+        echo $module[I("get.m")];
+        $map["module"] = $module[I("get.m")];
+        $list = $date->limit(8)->where($map)->select();
         $this->assign('module',$list[0]['module']);
         $this->assign("list",$list);
         $this->display();
