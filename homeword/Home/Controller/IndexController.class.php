@@ -13,6 +13,10 @@ class IndexController extends Controller{
         $date = M("artical");
         $list = $date->limit(8)->select();
         $this->assign("list",$list);
+        $this->assign("author",$list[0]["author"]);
+        $this->assign("title",$list[0]["title"]);
+        $this->assign("content",$list[0]["content"]);
+        $this->assign("date",$list[0]["date"]);
         $this->display();
     }
 

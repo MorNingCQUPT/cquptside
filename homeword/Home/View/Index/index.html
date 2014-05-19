@@ -57,25 +57,15 @@
                 <!--文章列表结束-->
                 <!--最新文章首页显示-->
                 <div class="doc-article">
-                    <h4 class="doc-article-title">使用jQuery和CSS将背景图片拉伸</h4><!--标题-->
+                    <h4 class="doc-article-title">{$title}</h4><!--标题-->
                     <div>
                         <!--信息-->
                         <div class="doc-article-info">
-                            <span class="doc-article-author">作者：月光光</span>
-                            <span class="doc-article-time">时间：2012-11-26 22:36</span>
-                            <span>标签： jQuery  CSS</span>
+                            <span class="doc-article-author">作者：{$author}</span>
+                            <span class="doc-article-time">{$date}</span>
                         </div>
                         <div class="doc-article-content">
-                            <!--
-                            这里插入文章内容，由于是首页预览，请限制在200字以内
-                            点击更多转到文章页
-                            -->
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;现在WEB页面设计比较流行使用大背景图，那么您知道如何使用一张大背景图进行拉伸效果呢？也就是说使用一张固定尺寸的背景图片，让它在页面中随着浏览器尺寸进行拉伸，就像我们的电脑桌面壁纸效果。本文将带您一起使用jQuery和CSS实现背景图片拉伸效果。
-                            </p>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;将背景图片拉伸，而不是平铺，注意平铺效果我们可以使用CSS的background-repeat来实行背景图片的平铺效果，本文讨论的是背景图片的拉伸效果。这种效果在一些前卫的页面设计中已经广泛应用，尤其在一些独立页面，像登录页面使用拉伸的背景图片效果比较常见。
-                            </p>
+                            {$content}
                             <a href="#">更多</a>
                         </div>
                     </div>
