@@ -137,11 +137,11 @@ $(document).ready(function(){
 	}else if($("#titleLink")){
 		$("#titleLink").attr("href",$link);
 	}else{}
-	if($("#listBarLink").attr("href")!=""||$("#listBarLink").attr("href")!="#"){
-		var sLink = doc.getElementById("listBarLink");
-		if(sLink&&sLink.href.match("xyfc")){
+	var sLink = doc.getElementById("listBarLink");
+	if(sLink&&(sLink.href!=""||sLink.href!="#")){
+		if(sLink.href.match("xyfc")){
 			$("#xyfc").addClass("active").siblings().removeClass("active");
-		}else if(sLink&&sLink.href.match("xshd")){
+		}else if(sLink.href.match("xshd")){
 			$("#xshd").addClass("active").siblings().removeClass("active");
 		}else{
 			$("#index").addClass("active").siblings().removeClass("active");
