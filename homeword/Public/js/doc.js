@@ -137,7 +137,7 @@ $(document).ready(function(){
 	}else if($("#titleLink")){
 		$("#titleLink").attr("href",$link);
 	}else{}
-	if($("#listBarLink").attr("href")!=""||$("#listBarLink").attr("href")!=""){
+	if($("#listBarLink").attr("href")!=""||$("#listBarLink").attr("href")!="#"){
 		var sLink = $("#listBarLink").attr("href");
 		if(sLink.match("xyfc")){
 			$("#xyfc").addClass("active").siblings().removeClass("active");
