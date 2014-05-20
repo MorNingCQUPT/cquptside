@@ -29,7 +29,7 @@
 						<h5 class="doc-span-title">&nbsp;学校新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
 						<ul class="doc-span-ul doc-bg">
 							<volist name="list" id="vo">
-								<li><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
+								<li><span>[{$vo.date}]</span><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
 							</volist>
 						<!--循环体结束-->
 						</ul>
@@ -39,14 +39,11 @@
 						<h5 class="doc-span-title">&nbsp;今日关注<a class="pull-right" href="">更多&nbsp;</a></h5>
 						<ul class="doc-span-ul doc-bg">
 							<volist name="list" id="vo">
-								<li><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
+								<li><span>[{$vo.date}]</span><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
 							</volist>
 						<!--循环体结束-->
 						</ul>
 					</div>
-				</div>
-				<div class="doc-content">
-					
 				</div>
             </div>
             <div class="span4">
@@ -55,7 +52,7 @@
 					<h5 class="doc-span-title">&nbsp;学院新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
 					<ul class="doc-span-ul doc-bg">
 						<volist name="list" id="vo">
-							<li><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
+							<li><span>[{$vo.date}]</span><a href="/index.php/Home/article/index/id/{$vo.id}">{$vo.title}</a></li>
 						</volist>
 					<!--循环体结束-->
 					</ul>

@@ -1,9 +1,11 @@
 body{background-color: #e8e8e8;padding: 0;}
+h5,h4{display:block;}
 #header{margin: 0;}
 .row{margin: 0;}
 .fontSet{ font-family:"微软雅黑";}
-.doc-form{margin: 5px 80px 5px 0;padding:0;}
-.doc-nav>.nav{margin-left: 80px;}
+.navbar-inner{padding:0;}
+.navbar-inner>.container{width:90%;}
+.doc-form{margin: 5px 0;padding:0;}
 #content{text-align: center;margin-bottom: 40px;position: relative;overflow: hidden;}
 #content>.container{padding: 50px;}
 #content>.container p{margin-top: 50px;}
@@ -27,13 +29,14 @@ body{background-color: #e8e8e8;padding: 0;}
 .doc-bg{background-color: #eeeeee;}
 .doc-span-title{margin: 0;padding: 5px 0;border-top-left-radius:5px;border-top-right-radius:5px;background-color: #3a87ad;width: 100%;}
 .doc-span-ul{margin: 0;width: 100%;padding: 5px 0;}
-.doc-span-ul li{list-style: none;line-height: 30px;transition: background 1s;-moz-transition: width 1s;-webkit-transition: background 1s;-o-transition: background 1s;}
+.doc-span-ul li span{color:#005580;margin-left:5px;}
+.doc-span-ul li{list-style: none;line-height: 30px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;transition: background 1s;-moz-transition: width 1s;-webkit-transition: background 1s;-o-transition: background 1s;}
 .doc-span-ul li:hover{background: #0044cc;}
 .doc-span-ul li:hover a{color: #fff;}
 .doc-span-ul li a{text-decoration: none; margin-left: 5px;}
 .doc-span-title a{text-decoration: none;color: #ee5f5b;}
 .carousel-control{top:50%;}
-.doc-detail-list{max-width: 800px;margin: 0 auto;}
+.doc-detail-list{}
 .doc-list-public{margin-bottom: 20px;}
 .doc-container{background: #fff;padding: 30px 0;}
 .doc-list-head{padding: 10px;color: #08c}
@@ -48,5 +51,7 @@ body{background-color: #e8e8e8;padding: 0;}
 [class*="span"]{margin:0;}
 .span8,.span4,.span9,.span3{margin:5px;}
 .clear{margin:0;padding:0;clear:both;}
-#linkList>h5{margin-top:5px;}
+#linkList>h5{margin-top:10px;}
+#linkList ul li{text-align:center;border-bottom:1px dotted #ccc;}
 .doc-listBar{display:block;margin:10px 0;}
+.doc-content{margin-bottom:10px;}

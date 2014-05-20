@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title>首页</title>
@@ -147,3 +147,92 @@
     </div>
 </div>
 <!--首页头部结束-->
+<!--container-->
+<div class="doc-content">
+    <div class="container doc-container">
+        <div class="row">
+            <div class="span8">
+                <div class="doc-content">
+					<div class="silder" id="silder">
+						<ul class="silder_list" id="silder_list">
+							<li>
+								<img src="/homeword/Public/images/1.jpg" border="0" alt="刘淇同志参观北京市志愿者之家">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/2.jpg" border="0" alt="刘淇同志与志愿者合影">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/3.jpg" border="0" alt="刘淇同志到北京大学人民医院调研">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/4.jpg" border="0" alt="2013中国志愿服务国际交流大会在京举行">
+							</li>                    
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">$('#silder').imgSilder({s_width:"100%", s_height:"auto", is_showTit:true, s_times:3000,css_link:'/homeword/Public/css/slider.css'});</script>
+				<div class="doc-content">
+					<div class="span4">
+						<!--首页文章列表-->
+						<h5 class="doc-span-title">&nbsp;学校新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
+						<ul class="doc-span-ul doc-bg">
+							<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span>[<?php echo ($vo["date"]); ?>]</span><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<!--循环体结束-->
+						</ul>
+					</div>
+					<div class="span4">
+						<!--首页文章列表-->
+						<h5 class="doc-span-title">&nbsp;今日关注<a class="pull-right" href="">更多&nbsp;</a></h5>
+						<ul class="doc-span-ul doc-bg">
+							<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span>[<?php echo ($vo["date"]); ?>]</span><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<!--循环体结束-->
+						</ul>
+					</div>
+				</div>
+            </div>
+            <div class="span4">
+                <div class="doc-content">
+					<!--首页文章列表-->
+					<h5 class="doc-span-title">&nbsp;学院新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
+					<ul class="doc-span-ul doc-bg">
+						<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span>[<?php echo ($vo["date"]); ?>]</span><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+					<!--循环体结束-->
+					</ul>
+				</div>
+				<div class="doc-content" id="linkList">
+					<!--首页文章列表-->
+					<h5 class="doc-span-title">&nbsp;友情链接<a class="pull-right" href="">更多&nbsp;</a></h5>
+					<ul class="doc-span-ul doc-bg">
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+					</ul>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--公用网页脚部-->
+<div id="footer">
+    <div class="container">
+        <div class="doc-foot-left pull-left">
+            <!--请自行添加或修改-->
+            <p>
+                <a href="#">关于我们</a> |
+                <a href="#">管理入口</a> |
+                <a href="#">网站声明</a> |
+                <a href="#">网站地图</a>
+            </p>
+        </div>
+        <div class="doc-foot-right pull-right">
+            <span>Copyright©2010-2013 All Rights Reserved. </span>
+            <a href="#">myIndex.com</a>
+        </div>
+    </div>
+</div>
+<!--公用脚部结束-->
+</body>
+</html>
