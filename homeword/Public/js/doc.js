@@ -138,10 +138,10 @@ $(document).ready(function(){
 		$("#titleLink").attr("href",$link);
 	}else{}
 	if($("#listBarLink").attr("href")!=""||$("#listBarLink").attr("href")!="#"){
-		var sLink = $("#listBarLink").attr("href");
-		if(sLink.match("xyfc")){
+		var sLink = doc.getElementById("listBarLink");
+		if(sLink&&sLink.href.match("xyfc")){
 			$("#xyfc").addClass("active").siblings().removeClass("active");
-		}else if(sLink.match("xshd")){
+		}else if(sLink&&sLink.href.match("xshd")){
 			$("#xshd").addClass("active").siblings().removeClass("active");
 		}else{
 			$("#index").addClass("active").siblings().removeClass("active");
