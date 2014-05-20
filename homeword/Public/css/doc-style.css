@@ -39,7 +39,8 @@ h5,h4{display:block;}
 .carousel-control{top:50%;}
 .doc-detail-list{min-height:400px;}
 .doc-list-public{margin-bottom: 20px;}
-.doc-container{background: #fff;margin-top:30px;}
+.doc-container{background: #fff;}
+.doc-t30{margin-top:30px;}
 .doc-list-head{padding: 10px;color: #08c}
 .doc-list-ul{margin:0;}
 .doc-list-ul li{margin:5px;list-style: none;position: relative;text-align: left;}
