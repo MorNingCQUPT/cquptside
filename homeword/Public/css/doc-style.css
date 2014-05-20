@@ -36,7 +36,7 @@ h5,h4{display:block;}
 .doc-span-ul li a{text-decoration: none; margin-left: 5px;}
 .doc-span-title a{text-decoration: none;color: #ee5f5b;}
 .carousel-control{top:50%;}
-.doc-detail-list{}
+.doc-detail-list{min-height:400px;}
 .doc-list-public{margin-bottom: 20px;}
 .doc-container{background: #fff;padding: 30px 0;}
 .doc-list-head{padding: 10px;color: #08c}
