@@ -29,7 +29,8 @@ class ArticleController extends Controller{
         $this->assign("mo",$module[$list["module"]]);
 
         #侧栏文章展示
-        $list_art = $date->limit(8)->select();
+        $map2['module']=$list["module"];
+        $list_art = $date->limit(8)->where($map2)->select();
         $this->assign("list",$list_art);
 
         $this->display();

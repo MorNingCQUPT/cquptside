@@ -19,6 +19,22 @@ class ModuleController extends Controller{
         $list = $date->limit(8)->where($map)->select();
         $this->assign('module',$list[0]['module']);
         $this->assign("list",$list);
+
+        #侧栏
+        $map2['parmodule']=$list[0]["parmodule"];
+        $module_slip = $date->where($map2)->group("module")->select();
+        #侧栏up
+        $map["module"]= $module_slip[0]["module"];
+        $list_side_up = $date->where($map)->select();
+        $this->assign("list_side_up",$list_side_up);
+        $this->assign("module_side_up",$list_side_up[0]["module"]);
+        #侧栏down
+        $map["module"]= $module_slip[1]["module"];
+        $list_side_down = $date->where($map)->select();
+        $this->assign("list_side_down",$list_side_down);
+        $this->assign("module_side_down",$list_side_down[0]["module"]);
+
+
         $this->display();
     }
 

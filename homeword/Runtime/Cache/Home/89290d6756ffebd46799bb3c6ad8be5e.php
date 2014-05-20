@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <title>首页</title>
+    <title>文章页</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="/homeword/Public/css/bootstrap.min.css" />
@@ -19,24 +19,8 @@
 		<div class="container">
         <ul class="nav">
             <li id="index" class="active"><a href="/index.php">首页</a></li>
-            <li id="xyfc"><a href="/index.php/Home/module/index/m/xyfc">学院动态</a></li>
+            <li id="xyfc"><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
             <li id="xshd"><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
-
-            <li class="dropdown">
-                <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/index.php/Home/module/index/m/xyfc">
-                    学院动态<b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                    <li id="xyfc">
-                        <a type="button" data-toggle="modal" href="/index.php/Home/module/index/m/xyfc">学院新闻</a>
-                    </li>
-                    <li id="xshd">
-                        <a type="button" data-toggle="modal" href="/index.php/Home/module/index/m/xshd">学生活动</a>
-                    </li>
-                  
-                </ul>
-            </li>
-
             <!--导航条下拉菜单-->
             <li class="dropdown">
                 <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
@@ -80,24 +64,16 @@
     </div>
     <div class="modal-body">
         <p>
-            <!--这里也有两个选择，一是AJAX异步请求
-                二是直接提交到action地址，当登陆完
-                成后，请将导航栏的下拉菜单替换为登
-                陆用户名，并附加注销按钮以及功能，
-                请脑补一下_(:з」∠)_
-            -->
         <form class="form-horizontal">
             <div class="control-group">
                 <label class="control-label" for="inputUsername">用户名</label>
                 <div class="controls">
-                    <!--用户名输入框 id:inputUsername-->
                     <input type="text" id="inputUsername" placeholder="Username">
                 </div>
             </div>
             <div class="control-group">
                 <label class="control-label" for="inputPassword">密码</label>
                 <div class="controls">
-                    <!--密码输入框 id:inputPassword-->
                     <input type="password" id="inputPassword" placeholder="Password">
                 </div>
             </div>
@@ -110,7 +86,6 @@
                 </div>
             </div>
         </form>
-        <!--sign in end-->
         </p>
     </div>
     <div class="modal-footer">
@@ -126,19 +101,16 @@
     </div>
     <div class="modal-body">
         <p>
-            <!--这里是注册表单，同上-->
         <form class="form-horizontal">
             <div class="control-group">
                 <label class="control-label" for="input-r-user">用户名</label>
                 <div class="controls">
-                    <!--注册用户名-->
                     <input type="text" id="input-r-user" placeholder="Username">
                 </div>
             </div>
             <div class="control-group">
                 <label class="control-label" for="input-r-password">密码</label>
                 <div class="controls">
-                    <!--注册密码-->
                     <input type="password" id="input-r-password" placeholder="Password">
                 </div>
             </div>
@@ -156,10 +128,86 @@
 </div>
 <!--注册窗口结束-->
 <!--公用头部结束-->
-<!--doc_header 首页头部请按兴趣随便更改-->
-<div class="doc-header" id="content">
-    <div class="container">
-    <img id="doc-imgBg" src="/homeword/Public/images/top.gif"/>
+<!--container-->
+<div class="container">
+    <span class="doc-listBar">您的位置：<a href="/index.php">首页</a>&gt;<a id="listBarLink" href="/index.php/Home/module/index/m/<?php echo ($mo); ?>"><?php echo ($module); ?></a>&gt;<a id="titleLink" href="#"><?php echo ($title); ?></a> </span>
+</div>
+<div class="container doc-container">
+    <div class="row">
+        <div class="span9">
+            <div class="doc-article">
+                <!--文章标题-->
+                <h4 class="doc-article-title"><?php echo ($title); ?></h4>
+                <!--标题结束-->
+                <div>
+                    <!--文章信息 包括作者名，时间，标签-->
+                    <div class="doc-article-info">
+                        <span class="doc-article-author">作者：<?php echo ($author); ?></span>
+                        <span class="doc-article-time">时间：<?php echo ($date); ?></span>
+                        <span>标签： jQuery  CSS</span>
+                    </div>
+                    <!--文章信息结束-->
+                    <!--文章内容-->
+                    <div class="doc-article-content">
+                        <!--直接全部插在这里面-->
+                        <?php echo ($content); ?>
+                    </div>
+                    <!--内容结束-->
+                </div>
+            </div>
+        </div>
+        <div class="span3">
+            <!--标签文章-->
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            <?php echo ($module); ?><b class="icon-chevron-down pull-right doc-btn-active"></b>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="accordion-inner doc-volist"><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </div>
+                </div>
+            </div>
+            <!--标签文章结束-->
+            <!--友情链接-->
+            <div class="accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a href="#" class="accordion-toggle">友情链接</a>
+                    </div>
+                    <div class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <a href="#">百度</a>
+                        </div>
+                        <div class="accordion-inner">
+                            <a href="#">谷歌</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--友情链接结束-->
+        </div>
     </div>
 </div>
-<!--首页头部结束-->
+<!--公用网页脚部-->
+<div id="footer">
+    <div class="container">
+        <div class="doc-foot-left pull-left">
+            <p>
+                <a href="#">关于我们</a> |
+                <a href="#">管理入口</a> |
+                <a href="#">网站声明</a> |
+                <a href="#">网站地图</a>
+            </p>
+        </div>
+        <div class="doc-foot-right pull-right">
+            <span>Copyright©2010-2013 All Rights Reserved. </span>
+            <a href="#">myIndex.com</a>
+        </div>
+    </div>
+</div>
+<!--公用脚部结束-->
+</body>
+</html>

@@ -1,0 +1,1231 @@
+[ 2014-05-20T20:47:44+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.002438s ]
+
+[ 2014-05-20T20:47:48+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000341s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004341s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.002538s ]
+
+[ 2014-05-20T20:48:35+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003964s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001424s ]
+
+[ 2014-05-20T20:49:35+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003693s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001352s ]
+
+[ 2014-05-20T20:50:09+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004468s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.002062s ]
+
+[ 2014-05-20T20:50:42+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004325s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001309s ]
+
+[ 2014-05-20T20:51:39+08:00 ] ::1 /index.php/Home/article/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003214s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001470s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.004501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2014-05-20T20:55:28+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000375s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003441s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.002150s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.002757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000677s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001789s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2014-05-20T21:12:48+08:00 ] 182.131.128.248 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000300s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003464s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.003750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2014-05-20T21:15:33+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003321s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.003292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000632s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2014-05-20T21:16:41+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+
+[ 2014-05-20T21:17:19+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000381s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+
+[ 2014-05-20T21:17:34+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003264s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.002434s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-05-20T21:22:38+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004878s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000545s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2014-05-20T21:25:32+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.004706s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2014-05-20T21:25:52+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004952s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.002444s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.001969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2014-05-20T21:26:10+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003169s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.002130s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2014-05-20T21:26:12+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.005035s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.004958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-05-20T21:26:14+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.005070s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2014-05-20T21:39:15+08:00 ] 171.215.161.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.008689s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.005811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000858s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001985s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2014-05-20T21:40:02+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003316s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.004725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2014-05-20T21:40:05+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004984s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.004577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000588s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2014-05-20T21:40:09+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004820s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.003482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2014-05-20T21:40:13+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004295s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2014-05-20T21:40:49+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004532s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2014-05-20T21:40:58+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003042s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001807s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2014-05-20T21:40:59+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004364s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.006626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.004346s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2014-05-20T21:41:01+08:00 ] ::1 /index.php/Home/article/index/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003066s ]
+SQL: SELECT * FROM `artical` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.005418s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2014-05-20T21:41:04+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004877s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001700s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2014-05-20T21:41:19+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003177s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.004333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.002016s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2014-05-20T21:41:20+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003177s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001761s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2014-05-20T21:41:50+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003666s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2014-05-20T21:41:51+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.002891s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2014-05-20T21:43:50+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003138s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.018634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001457s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001684s ]
+NOTIC: [8] Array to string conversion /var/www/homeword/Home/Controller/ModuleController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2014-05-20T21:44:17+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004217s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001560s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.002227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2014-05-20T21:44:19+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004199s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.009437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2014-05-20T21:44:19+08:00 ] 95.13.53.109 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004845s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.005153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002628s ]
+
+[ 2014-05-20T21:44:34+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004714s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.009947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001508s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2014-05-20T21:44:54+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004947s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2014-05-20T21:45:25+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.002991s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.004618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.007952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2014-05-20T21:45:26+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.006757s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.010330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001570s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.007670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2014-05-20T21:45:53+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000430s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003366s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.004088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8] Undefined variable: list_side /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2014-05-20T21:46:04+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004356s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003506s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2014-05-20T21:46:10+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004095s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003310s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000652s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001702s ]
+
+[ 2014-05-20T21:46:19+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003790s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.003428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001538s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2014-05-20T21:46:40+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004711s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002921s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2014-05-20T21:47:50+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004306s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003532s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) LIMIT 8   [ RunTime:0.003080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2014-05-20T21:48:04+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004232s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003190s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module LIMIT 8   [ RunTime:0.001771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2014-05-20T21:54:09+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.005287s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003142s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.005278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2014-05-20T21:56:48+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004585s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003352s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001919s ]
+SQL: SELECT * FROM `artical` WHERE ( module = 学生活动 )  [ RunTime:0.001249s ]
+ERR: 1054:Unknown column '学生活动' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artical` WHERE ( module = 学生活动 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2014-05-20T21:57:35+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004145s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003036s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001810s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' )  [ RunTime:0.002224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2014-05-20T22:00:49+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004542s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.003466s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001773s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' )  [ RunTime:0.001575s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' )  [ RunTime:0.002305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Undefined variable: module_side_down /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 179 行.
+NOTIC: [8] Undefined variable: list_side_down /var/www/homeword/Runtime/Cache/Home/76c6c89d37b3ae1469f7a8a98a798055.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2014-05-20T22:01:26+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.003045s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.004977s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001755s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' )  [ RunTime:0.001425s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' )  [ RunTime:0.002103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/ThinkPHP/Common/functions.php:758) /var/www/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2014-05-20T22:01:51+08:00 ] ::1 /index.php/Home/module/index/m/xyfc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004764s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' ) LIMIT 8   [ RunTime:0.002921s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001935s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' )  [ RunTime:0.004730s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' )  [ RunTime:0.001968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2014-05-20T22:01:57+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004814s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.003503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000644s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2014-05-20T22:03:25+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004149s ]
+SQL: SELECT * FROM `artical` LIMIT 8   [ RunTime:0.003238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2014-05-20T22:03:27+08:00 ] ::1 /index.php/Home/module/index/m/xshd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `artical` [ RunTime:0.004783s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' ) LIMIT 8   [ RunTime:0.002488s ]
+SQL: SELECT * FROM `artical` WHERE ( `parmodule` = '学院动态' ) GROUP BY module  [ RunTime:0.001691s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学生活动' )  [ RunTime:0.001339s ]
+SQL: SELECT * FROM `artical` WHERE ( `module` = '学院新闻' )  [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
