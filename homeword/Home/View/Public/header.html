@@ -18,9 +18,9 @@
         <!--导航条 请根据需要添加或修改-->
 		<div class="container">
         <ul class="nav">
-            <li class="active"><a href="/index.php">首页</a></li>
-            <li><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
-            <li><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
+            <li id="index" class="active"><a href="/index.php">首页</a></li>
+            <li id="xyfc"><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
+            <li id="xshd"><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
             <!--导航条下拉菜单-->
             <li class="dropdown">
                 <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">

@@ -119,13 +119,32 @@
 $(document).ready(function(){
     var $body=(window.opera)?(document.compatMode=="CSS1Compat"?$('html'):$('body')):$('html,body'),
         doc = document,
-        accordionToggle = doc.getElementsByClassName("accordion-toggle");
-    $("#btn-slide-down").click(function(){
-        $body.animate({scrollTop:$("#content").height()},400);
-    });
+        accordionToggle = doc.getElementsByClassName("accordion-toggle"),
+		$nav = doc.getElementsByClassName("nav")[0],
+		$link = location.pathname;
     $(accordionToggle).each(function(){
         $(this).click(function(){
             $(this).find("b").toggleClass("icon-chevron-up icon-chevron-down");
         });
     });
+	$($nav).children("li:not([class='dropdown'])").each(function(){
+		$(this).click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+	});
+	if($link.match(/(xshd|xyfc)$/)){
+		$("#listBarLink").attr("href",$link);
+	}else if($("#titleLink")){
+		$("#titleLink").attr("href",$link);
+	}else{}
+	if($("#listBarLink").attr("href")!=""||$("#listBarLink").attr("href")!=""){
+		var sLink = $("#listBarLink").attr("href");
+		if(sLink.match("xyfc")){
+			$("#xyfc").addClass("active").siblings().removeClass("active");
+		}else if(sLink.match("xshd")){
+			$("#xshd").addClass("active").siblings().removeClass("active");
+		}else{
+			$("#index").addClass("active").siblings().removeClass("active");
+		}
+	}
 });

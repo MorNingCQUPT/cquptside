@@ -14,31 +14,46 @@
 <body class="fontSet">
 <!--公用头部-->
 <div id="header" class="navbar">
-    <div class="navbar-inner doc-nav">
-        <!--导航条-->
+    <div class="navbar-inner">
+        <!--导航条 请根据需要添加或修改-->
+		<div class="container">
         <ul class="nav">
-            <li class="active"><a href="/index.php">首页</a></li>
-            <li><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
-            <li><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
+            <li id="index" class="active"><a href="/index.php">首页</a></li>
+            <li id="xyfc"><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
+            <li id="xshd"><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
+            <!--导航条下拉菜单-->
             <li class="dropdown">
-                <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">登陆<b class="caret"></b></a>
+                <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+                    登陆<b class="caret"></b>
+                </a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                    <li id="signIn"><a type="button" data-toggle="modal" data-target="#myLoginBox">登陆</a></li>
-                    <li id="regist"><a type="button" data-toggle="modal" data-target="#registBox">注册</a></li>
+                    <li id="signIn">
+                        <a type="button" data-toggle="modal" data-target="#myLoginBox">登陆</a>
+                    </li>
+                    <li id="regist">
+                        <a type="button" data-toggle="modal" data-target="#registBox">注册</a>
+                    </li>
                     <li class="divider"></li>
-                    <li id="close"><a href="#">关闭</a></li>
+                    <li id="close">
+                        <a href="#">关闭</a>
+                    </li>
                 </ul>
             </li>
         </ul>
         <!--导航条结束-->
-        <!--搜索条-->
+        <!--搜索条 请将搜索请求的url写到 form的action属性里
+            或者做成AJAX get请求也可以
+        -->
         <form class="form-search doc-form pull-right">
             <div class="input-append">
-                <input type="text" class="span2 search-query">
+                <!--搜索框-->
+                <input id="input-search" type="text" class="span2 search-query">
+                <!--提交按钮-->
                 <button type="submit" class="btn">Search</button>
             </div>
         </form>
         <!--搜索条结束-->
+		</div>
     </div>
 </div>
 <!--登陆窗口-->
