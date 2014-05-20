@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/homeword/Public/css/doc-style.css" />
     <script type="text/javascript" src="/homeword/Public/js/jquery.js"></script>
     <script type="text/javascript" src="/homeword/Public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
 </head>
 <body class="fontSet">
 <!--公用头部-->
@@ -154,139 +155,68 @@
     <div class="container doc-container">
         <div class="row">
             <div class="span8">
-                <div class="span5 doc-span5">
-                    <!--滑动模块
-                        列表的第一个class必须为active,
-                        其他的data-slide-to依次递增
-                    -->
-                    <div id="myCarousel" class="carousel slide">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <!-- 这里item初始化图片，
-                             并且第一个也需要有
-                             active的class
-                         -->
-                        <div class="carousel-inner">
-                            <div class="active item">
-                                <img src="/homeword/Public/images/Chrysanthemum.jpg" />
-                            </div>
-                            <div class="item">
-                                <img src="/homeword/Public/images/Desert.jpg"/>
-                            </div>
-                            <div class="item">
-                                <img src="/homeword/Public/images/Hydrangeas.jpg"/>
-                            </div>
-                        </div>
-                        <!-- 前后控制按钮 -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                    </div>
-                    <!--滑动模块结束-->
-                </div>
-                <!--首页文章列表-->
-                <div class="span3">
-                    <h5 class="doc-span-title clearfix">&nbsp;学院新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
-                    <ul class="doc-span-ul doc-bg">
-                        <!--循环体
-                            这里只取八篇文章
-                            由于排版的缘故，
-                            八篇是极限了，在
-                            平板或者其他小尺
-                            寸设备下，这块长
-                            度参差不齐。。。
-                        -->
-                        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!--循环体结束-->
-                    </ul>
-                </div>
-                <!--文章列表结束-->
-                <!--最新文章首页显示-->
-                <div class="doc-article">
-                    <h4 class="doc-article-title"><?php echo ($title); ?></h4><!--标题-->
-                    <div>
-                        <!--信息-->
-                        <div class="doc-article-info">
-                            <span class="doc-article-author">作者：<?php echo ($author); ?></span>
-                            <span class="doc-article-time"><?php echo ($date); ?></span>
-                        </div>
-                        <div class="doc-article-content">
-                            <?php echo ($content); ?>
-                            <a href="#">更多</a>
-                        </div>
-                    </div>
-                </div>
-                <!--
-                <div class="doc-article">
-                    <h4 class="doc-article-title">使用jQuery和CSS将背景图片拉伸</h4>
-                    <div>
-                        <div class="doc-article-info">
-                            <span class="doc-article-author">作者：月光光</span>
-                            <span class="doc-article-time">时间：2012-11-26 22:36</span>
-                            <span>标签： jQuery  CSS</span>
-                        </div>
-                        <div class="doc-article-content">
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;将背景图片拉伸，而不是平铺，注意平铺效果我们可以使用CSS的background-repeat来实行背景图片的平铺效果，本文讨论的是背景图片的拉伸效果。这种效果在一些前卫的页面设计中已经广泛应用，尤其在一些独立页面，像登录页面使用拉伸的背景图片效果比较常见。
-                            </p>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;目前有两种解决方案可以实现背景图片拉伸效果，一种是CSS，我们可以使用background-size:cover实现图片的拉伸效果，但是IE8及以下版本不支持background-size，于是我们尝试使用微软的滤镜效果，但是IE6不支持，毕竟还有一些后进生在使用IE6。另一种解决方案是使用jQuery，完全解决浏览器的兼容性问题，还是jQuery威武。
-                            </p>
-                            <a href="#">更多</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-article">
-                    <h4 class="doc-article-title">使用jQuery和CSS将背景图片拉伸</h4>
-                    <div>
-                        <div class="doc-article-info">
-                            <span class="doc-article-author">作者：月光光</span>
-                            <span class="doc-article-time">时间：2012-11-26 22:36</span>
-                            <span>标签： jQuery  CSS</span>
-                        </div>
-                        <div class="doc-article-content">
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;目前有两种解决方案可以实现背景图片拉伸效果，一种是CSS，我们可以使用background-size:cover实现图片的拉伸效果，但是IE8及以下版本不支持background-size，于是我们尝试使用微软的滤镜效果，但是IE6不支持，毕竟还有一些后进生在使用IE6。另一种解决方案是使用jQuery，完全解决浏览器的兼容性问题，还是jQuery威武。
-                            </p>
-                            <a href="#">更多</a>
-                        </div>
-                    </div>
-                </div>
-                -->
+                <div class="doc-content">
+					<div class="silder" id="silder">
+						<ul class="silder_list" id="silder_list">
+							<li>
+								<img src="/homeword/Public/images/1.jpg" border="0" alt="刘淇同志参观北京市志愿者之家">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/2.jpg" border="0" alt="刘淇同志与志愿者合影">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/3.jpg" border="0" alt="刘淇同志到北京大学人民医院调研">
+							</li>
+							<li>
+								<img src="/homeword/Public/images/4.jpg" border="0" alt="2013中国志愿服务国际交流大会在京举行">
+							</li>                    
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">$('#silder').imgSilder({s_width:"100%", s_height:"auto", is_showTit:true, s_times:3000,css_link:'/homeword/Public/css/slider.css'});</script>
+				<div class="doc-content">
+					<div class="span4">
+						<!--首页文章列表-->
+						<h5 class="doc-span-title">&nbsp;学校新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
+						<ul class="doc-span-ul doc-bg">
+							<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<!--循环体结束-->
+						</ul>
+					</div>
+					<div class="span4">
+						<!--首页文章列表-->
+						<h5 class="doc-span-title">&nbsp;今日关注<a class="pull-right" href="">更多&nbsp;</a></h5>
+						<ul class="doc-span-ul doc-bg">
+							<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<!--循环体结束-->
+						</ul>
+					</div>
+				</div>
+				<div class="doc-content">
+					
+				</div>
             </div>
-            <div class="span3">
-                <!--标签下拉列表，
-                    请按照自己的
-                    需要增加或修
-                    改，并添加链
-                    接到每一个分
-                    页面
-                -->
-
-
-
-                <!--标签文章结束-->
-                <!--友情链接   放在这个旁边好扎眼，需要改
-                <div class="accordion">
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a href="#" class="accordion-toggle">友情链接</a>
-                        </div>
-                        <div class="accordion-body collapse in">
-
-                            <div class="accordion-inner">
-                                <a href="#">百度</a>
-                            </div>
-
-                            <div class="accordion-inner">
-                                <a href="#">谷歌</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                友情链接结束-->
+            <div class="span4">
+                <div class="doc-content">
+					<!--首页文章列表-->
+					<h5 class="doc-span-title">&nbsp;学院新闻<a class="pull-right" href="">更多&nbsp;</a></h5>
+					<ul class="doc-span-ul doc-bg">
+						<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/index.php/Home/article/index/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+					<!--循环体结束-->
+					</ul>
+				</div>
+				<div class="doc-content" id="linkList">
+					<!--首页文章列表-->
+					<h5 class="doc-span-title">&nbsp;友情链接<a class="pull-right" href="">更多&nbsp;</a></h5>
+					<ul class="doc-span-ul doc-bg">
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+						<li><a href="">百度</a></li>
+					</ul>
+				</div>
             </div>
         </div>
     </div>
@@ -310,6 +240,5 @@
     </div>
 </div>
 <!--公用脚部结束-->
-<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/homeword/Public/css/doc-style.css" />
     <script type="text/javascript" src="/homeword/Public/js/jquery.js"></script>
     <script type="text/javascript" src="/homeword/Public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
 </head>
 <body class="fontSet">
 <!--公用头部-->
@@ -16,9 +17,9 @@
     <div class="navbar-inner doc-nav">
         <!--导航条-->
         <ul class="nav">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">文章区</a></li>
-            <li><a href="#">扶她板载</a></li>
+            <li class="active"><a href="/index.php">首页</a></li>
+            <li><a href="/index.php/Home/module/index/m/xyfc">学院新闻</a></li>
+            <li><a href="/index.php/Home/module/index/m/xshd">学生活动</a></li>
             <li class="dropdown">
                 <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="/page.html">登陆<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
@@ -118,7 +119,7 @@
 </div>
 <div class="container doc-container">
     <div class="row">
-        <div class="span8">
+        <div class="span9">
             <div class="doc-article">
                 <!--文章标题-->
                 <h4 class="doc-article-title"><?php echo ($title); ?></h4>
@@ -208,6 +209,5 @@
     </div>
 </div>
 <!--公用脚部结束-->
-<script type="text/javascript" src="/homeword/Public/js/doc.js"></script>
 </body>
 </html>
