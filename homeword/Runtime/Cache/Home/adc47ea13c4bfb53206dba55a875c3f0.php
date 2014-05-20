@@ -140,17 +140,13 @@
 </div>
 <!--注册窗口结束-->
 <!--公用头部结束-->
-<!--doc_header 首页头部请按兴趣随便更改-->
-<div class="doc-header" id="content">
-    <div class="container">
-    <img id="doc-imgBg" src="/homeword/Public/images/top.gif"/>
-    </div>
-</div>
-<!--首页头部结束-->
 <!--container-->
 <div class="doc-content">
     <div class="container doc-container">
         <div class="row">
+			<div style="width:100%;">
+				<img id="doc-imgBg" src="/homeword/Public/images/top.jpg"/>
+			</div>
             <div class="span8">
                 <div class="doc-content">
 					<div class="silder" id="silder">
